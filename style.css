@@ -29,8 +29,6 @@ input {
     font-size: 15px;
     outline: none;
     font-size: 22px;
-
-
 }
 button {
     height: 5rem;
@@ -43,12 +41,16 @@ button {
     text-transform: uppercase;
     color: #ecdfdf;
     outline: none;
-  
 }
 button:hover {
     cursor: pointer;
     background: transparent linear-gradient(to top left,  rgba(218, 32, 81, 0.2) 40%, rgba(95, 189, 197, 0.2) 100%, rgba(195, 139, 35, 0.2) 0%);
     border-image: linear-gradient(to top left, rgb(41, 144, 153) 100%,rgb(238, 191, 104) 0%, rgb(207, 10, 63) 40%);
     transition: transform .25s;
+}
 
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
 }
