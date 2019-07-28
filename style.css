@@ -53,4 +53,7 @@ button:hover {
     h1 {
         font-size: 30px;
     }
+    input{
+            padding: 15px 20px;
+    }
 }
