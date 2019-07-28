@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(#100e17,#101010, #110000, #111111);
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #09a29d;
+    font-family: 'Jacques Francois Shadow', cursive;
+}
+p {
+    color: white;
+    border: 1px solid rgb(231, 10, 10);
+    padding: 35px;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: 'Indie Flower', cursive;
+}
+input {
+    padding: 35px 100px;
+    margin-top: 3em;
+    border-radius: 56px;
+    background-color: #d0c1c1;
+    color: #008662;
+    outline: none;
+    font-size: 15px;
+    outline: none;
+    font-size: 22px;
+
+
+}
+button {
+    height: 5rem;
+    width: 12rem;
+    background: transparent linear-gradient(to top left, rgba(249,208,129,.2) 0%, rgba(227,2,62,.2) 40%, rgba(49,128,135,.2) 100%);
+    border-image: linear-gradient(to top left, rgba(249,208,129,1) 0%, rgba(227,2,62,1) 40%, rgba(49,128,135,1) 100%);
+    letter-spacing: .2rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ecdfdf;
+    outline: none;
+  
+}
+button:hover {
+    cursor: pointer;
+    background: transparent linear-gradient(to top left,  rgba(218, 32, 81, 0.2) 40%, rgba(95, 189, 197, 0.2) 100%, rgba(195, 139, 35, 0.2) 0%);
+    border-image: linear-gradient(to top left, rgb(41, 144, 153) 100%,rgb(238, 191, 104) 0%, rgb(207, 10, 63) 40%);
+    transition: transform .25s;
+
+}
